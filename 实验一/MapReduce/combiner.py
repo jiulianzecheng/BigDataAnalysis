@@ -1,22 +1,24 @@
-import json
-import sys
 import threading
-import time
 from collections import defaultdict
 
-
 def combine(file_read,file_write):
+    #打开文件
     file_r=open(file_read)
     file_w=open(file_write,'a')
+
     result =defaultdict(int)
     for line in file_r:
+        #读取map文件中的每个单词记录
         line = line.strip()
         line=line.replace('(','').replace(')','')
         title, word, num = line.split(',')
+        #以字典的形式记录每个文档中每个单词出现的次数
         key=(title.strip(),word.strip())
         num = int(num)
         result[key]+=num
+    #按出现次数倒序排序
     result = sorted(result.items(), key=lambda item: item[1], reverse=True)
+    #写入到相应的combiner文件中
     for key,value in result:
         file_w.write("{},{}\n".format(key, value))
 if __name__ == '__main__':
