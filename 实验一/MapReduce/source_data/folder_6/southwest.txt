@@ -1,7 +1,0 @@
-[[Image:Compass Rose English Southwest.svg|thumb|250px|right|A [[compass rose]] with southwest highlighted]] 
- '''Southwest'''  is the [[direction]] halfway between [[south]] and [[west]]. It is the opposite of [[northeast]]. 
- 
- {{geo-stub}} 
- {{directions}} 
- 
- [[Category:Compass directions]]

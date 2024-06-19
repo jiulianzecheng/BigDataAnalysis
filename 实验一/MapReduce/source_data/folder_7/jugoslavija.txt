@@ -1,4 +1,0 @@
-#redirect [[Yugoslavia]] 
- 
- {{Rcat shell| 
- {{R from another language|sh|en}}}}

@@ -1,8 +1,0 @@
-[[File:Pump jet.PNG|thumb|300px|Pump jet]] 
- 
- A '''propulsor''' is a [[Mechanics|mechanical]] [[device]] that gives [[propulsion]]. The [[pump-jet]] is an example. 
- 
- [[Category:Engineering]] 
- 
- 
- {{tech-stub}}

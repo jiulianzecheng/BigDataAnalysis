@@ -1,5 +1,0 @@
-#REDIRECT [[Selective serotonin reuptake inhibitor]] 
- 
- {{Rcat shell|1= 
- {{R from acronym}} 
- }}

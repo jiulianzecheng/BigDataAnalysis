@@ -1,4 +1,0 @@
-#redirect [[Aberdeen]] 
- 
- {{Rcat shell| 
- {{R from another language|sco|en}}}}

@@ -1,5 +1,0 @@
-#REDIRECT [[Mammal]] 
- {{Redirect category shell| 
-   {{R from subtopic}} 
-   {{R with possibilities}} 
- }}

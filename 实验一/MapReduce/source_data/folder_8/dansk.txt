@@ -1,4 +1,0 @@
-#redirect [[Danish language]] 
- 
- {{Redirect category shell| 
- {{R from another language|da|en}}}}

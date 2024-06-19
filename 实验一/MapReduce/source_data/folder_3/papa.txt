@@ -1,4 +1,0 @@
-#redirect [[Pope]] 
- 
- {{Rcat shell| 
- {{R from another language|la|en}}}}

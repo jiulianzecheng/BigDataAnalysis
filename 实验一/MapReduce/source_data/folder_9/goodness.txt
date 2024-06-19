@@ -1,5 +1,0 @@
-#REDIRECT [[Good and bad]] 
- 
- {{rcat shell| 
- {{R from related word}} 
- }}

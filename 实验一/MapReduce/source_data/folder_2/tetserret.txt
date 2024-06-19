@@ -1,6 +1,0 @@
-'''Tetserret''' is a language of Niger, it has features of a berber language 
- 
- [[Category:Languages of Niger]] 
- [[Category:Berber languages]] 
- 
- {{stub}}

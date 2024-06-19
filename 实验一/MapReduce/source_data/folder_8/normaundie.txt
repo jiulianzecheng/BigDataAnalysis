@@ -1,4 +1,0 @@
-#redirect [[Normandy]] 
- 
- {{Rcat shell| 
- {{R from alternative language|nrf|en}}}}

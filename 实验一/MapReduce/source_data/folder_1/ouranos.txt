@@ -1,7 +1,0 @@
-#REDIRECT [[Uranos]] 
- 
- {{Rcat shell| 
- {{R from alternative language|grc|el}} 
- {{R mentioned in hatnote}} 
- {{R printworthy}} 
- }}

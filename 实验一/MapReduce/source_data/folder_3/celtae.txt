@@ -1,4 +1,0 @@
-#redirect [[Celts]] 
- 
- {{Redirect category shell| 
- {{R from alternative language|la|en}}}}

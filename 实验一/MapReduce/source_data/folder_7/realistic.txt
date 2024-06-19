@@ -1,5 +1,0 @@
-#REDIRECT [[Realism]] 
- 
- {{rcat shell| 
- {{R from related word}} 
- }}

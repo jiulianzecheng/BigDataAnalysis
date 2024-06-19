@@ -1,4 +1,0 @@
-#redirect [[Tagus]] 
- 
- {{Redirect category shell| 
- {{R from other language|pt|la}}}}

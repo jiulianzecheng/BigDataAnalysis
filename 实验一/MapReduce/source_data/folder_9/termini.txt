@@ -1,1 +1,0 @@
-#redirect [[terminus]] {{R from plural}}

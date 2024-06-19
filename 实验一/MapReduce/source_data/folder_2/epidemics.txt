@@ -1,1 +1,0 @@
-#redirect [[epidemic]] {{R from plural}}

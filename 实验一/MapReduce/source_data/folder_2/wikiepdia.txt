@@ -1,6 +1,0 @@
-#REDIRECT [[Wikipedia]] 
- 
- {{Rcat shell| 
- {{R from typo}} 
- {{R unprintworthy}} 
- }}

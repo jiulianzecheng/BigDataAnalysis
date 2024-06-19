@@ -1,3 +1,0 @@
-#REDIRECT [[Fortification]] 
- {{Redirect category shell|{{R from short name}} 
- {{R from plural}}}}

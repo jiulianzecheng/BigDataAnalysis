@@ -1,4 +1,0 @@
-#REDIRECT [[Porto]] 
- 
- {{Rcat shell| 
- {{R from alternative name}}}}

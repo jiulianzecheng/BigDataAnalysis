@@ -1,4 +1,0 @@
-#REDIRECT [[Danish people]] 
- 
- {{Redirect category shell| 
- {{R from another language|da|en}}}}

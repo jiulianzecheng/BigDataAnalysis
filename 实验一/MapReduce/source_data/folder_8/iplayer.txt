@@ -1,2 +1,0 @@
-#redirect [[BBC iPlayer]] 
- {{lowercase}}

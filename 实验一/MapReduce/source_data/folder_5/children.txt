@@ -1,4 +1,0 @@
-#REDIRECT [[Child]] 
- {{redirect category shell| 
- {{R from plural}} 
- }}

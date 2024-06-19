@@ -1,8 +1,0 @@
-'''Mononucleosis''' is the presence of [[Lymphocyte]]s in the bloodstream. There are two forms: 
- * [[Glandular fever]] 
- * CMV Mononucleosis. 
- The term usually refers to Glandular fever. 
- 
- {{biology-stub}} 
- 
- [[Category:Diseases caused by viruses]]

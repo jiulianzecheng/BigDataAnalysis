@@ -1,4 +1,0 @@
-#REDIRECT [[Kiwifruit]] 
- {{rcatshell| 
- {{r from plural}} 
- }}

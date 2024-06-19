@@ -1,5 +1,0 @@
-#REDIRECT [[Elckerljic]] 
- 
- {{Rcat shell| 
- {{R from other name}} 
- }}

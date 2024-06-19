@@ -1,4 +1,0 @@
-#REDIRECT[[Germany]] 
- 
- {{Redirect category shell| 
- {{R from alternative language|de|en}}}}

@@ -1,4 +1,0 @@
-#redirect [[Kyrgyzstan]] 
- 
- {{Rcat shell| 
- {{R from alternative spelling}}}}

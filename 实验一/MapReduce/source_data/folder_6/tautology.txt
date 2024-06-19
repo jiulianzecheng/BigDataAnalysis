@@ -1,6 +1,0 @@
-{{enWiktionary|tautology}} 
- 
- '''Tautology''' could mean: 
- * [[Tautology (logic)]], a statement of propositional logic which holds for all truth values of its atomic propositions 
- * [[Tautology (rhetoric)]], use of redundant language 
- {{disambig}}

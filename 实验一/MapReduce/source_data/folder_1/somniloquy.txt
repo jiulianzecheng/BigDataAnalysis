@@ -1,5 +1,0 @@
-'''Somniloquy''' is a [[sleep disorder]]. People with the condition often talk during their [[sleep]]. 
- 
- {{med-stub}} 
- 
- [[Category:Sleep disorders]]

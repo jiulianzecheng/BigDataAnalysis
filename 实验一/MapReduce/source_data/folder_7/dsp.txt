@@ -1,2 +1,0 @@
-#REDIRECT [[Digital signal processing]] 
- {{R from acronym}}

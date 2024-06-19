@@ -1,8 +1,0 @@
-'''Awka''' is a city in [[Nigeria]]. It is the capital of [[Anambra State]]. 
- 
- 
- {{geo-stub}} 
- 
- [[Category:Cities in Nigeria]] 
- [[Category:State capitals in Nigeria]] 
- [[Category:Anambra State]]

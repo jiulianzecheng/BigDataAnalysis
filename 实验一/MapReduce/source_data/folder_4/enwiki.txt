@@ -1,5 +1,0 @@
-#redirect [[English Wikipedia]] 
- 
- {{Rcat shell| 
- {{R from abbreviation}} 
- }}

@@ -1,5 +1,0 @@
-#REDIRECT [[:Connecticut]] 
- 
- {{rcatshell| 
- {{r from typo}} 
- }}

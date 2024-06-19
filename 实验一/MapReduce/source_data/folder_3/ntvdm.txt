@@ -1,1 +1,0 @@
-#REDIRECT [[Virtual_DOS_machine#Windows_NTVDM]]

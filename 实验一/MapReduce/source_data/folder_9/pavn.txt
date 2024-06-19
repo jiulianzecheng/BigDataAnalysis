@@ -1,4 +1,0 @@
-#redirect [[People's Army of Vietnam]] 
- 
- {{Rcat shell| 
- {{R from acronym}}}}

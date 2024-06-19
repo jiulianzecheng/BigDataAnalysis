@@ -1,5 +1,0 @@
-#REDIRECT [[Kulturzentrum Bremgarten]] 
- 
- {{Redirect category shell| 
- {{R from acronym}} 
- }}

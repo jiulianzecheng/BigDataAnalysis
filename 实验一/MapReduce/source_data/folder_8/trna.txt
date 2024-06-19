@@ -1,3 +1,0 @@
-#redirect [[RNA#tRNA]] 
- 
- {{lowercase}}

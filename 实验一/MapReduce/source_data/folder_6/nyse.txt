@@ -1,4 +1,0 @@
-#REDIRECT [[New York Stock Exchange]] 
- {{Redirect category shell| 
- {{R from acronym}} 
- }}

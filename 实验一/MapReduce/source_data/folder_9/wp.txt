@@ -1,4 +1,0 @@
-#REDIRECT [[Wikipedia]] 
- {{redirect category shell| 
- {{R from shortcut}} 
- }}

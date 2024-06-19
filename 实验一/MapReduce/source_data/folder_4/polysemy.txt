@@ -1,3 +1,0 @@
-'''Polysemy''' is the coexistence of many possible meanings for a word or phrase. 
- {{stub}} 
- [[Category:Language]]

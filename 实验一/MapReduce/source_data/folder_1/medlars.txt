@@ -1,4 +1,0 @@
-#REDIRECT [[:Medlar]] 
- {{rcatshell| 
- {{r from plural}} 
- }}

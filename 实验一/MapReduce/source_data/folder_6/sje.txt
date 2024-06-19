@@ -1,3 +1,0 @@
-'''Sje''' (Ć, ć) is a letter of the [[Cyrillic script]]. On computers, it has to be encoded as C +  ́ being an extremely recent letter. 
- 
- [[Category:Cyrillic letters]]

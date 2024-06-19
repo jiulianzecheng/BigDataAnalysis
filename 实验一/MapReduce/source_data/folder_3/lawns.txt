@@ -1,5 +1,0 @@
-#REDIRECT [[:Lawn]] 
- 
- {{rcatshell| 
- {{r from plural}} 
- }}

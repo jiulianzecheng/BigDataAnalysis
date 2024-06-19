@@ -1,3 +1,0 @@
-#REDIRECT [[Wikimedia Foundation]] 
- {{redirect category shell| 
- {{r from shortcut}}}}

@@ -1,1 +1,0 @@
-#redirect [[meander]] {{R from plural}}

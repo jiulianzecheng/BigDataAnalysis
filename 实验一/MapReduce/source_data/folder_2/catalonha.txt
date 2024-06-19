@@ -1,4 +1,0 @@
-#redirect [[Catalonia]] 
- 
- {{Redirect category shell| 
- {{R from alternative language|oc|en}}}}
