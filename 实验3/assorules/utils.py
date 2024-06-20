@@ -2,6 +2,11 @@ from collections import defaultdict
 
 
 def read_baskets(file_baskets):
+    """
+    读取购物篮
+    :param file_baskets: 文件路径
+    :return:
+    """
     baskets = []
     with open(file_baskets, 'r') as f_baskets:
         for line in f_baskets:
@@ -14,25 +19,24 @@ def read_baskets(file_baskets):
             baskets.append(basket)
     return baskets
 def write_freq_sets(frequent_sets,support_degrees,file_frequent_sets):
+    """
+    写入频繁项集
+    :param frequent_sets: 频繁项集
+    :param support_degrees: 支持度
+    :param file_frequent_sets: 文件路径
+    :return:
+    """
     with open(file_frequent_sets,'a') as f_fre_sets1:
         for i in range(len(frequent_sets)):
             f_fre_sets1.write("{}:{}\n".format(frequent_sets[i],support_degrees[i]))
 
-def cadidate(freq_sets1,freq_sets2):
-    cadidate_sets=[]
-    temp=set()
-    for elem1 in freq_sets1:
-        for elem2 in freq_sets2:
-            if not (elem1 <= elem2):
-                elem3=elem1|elem2
-                elem3=frozenset(elem3)
-                temp.add(elem3)
-    # temp=set(temp)
-    # temp=list(temp)
-    for elem in temp:
-        cadidate_sets.append(set(elem))
-    return cadidate_sets
+
 def read_freq_sets(file_sets):
+    """
+    读取频繁项集
+    :param file_sets: 文件路径
+    :return:
+    """
     sets = []
     with open(file_sets, 'r') as f_sets:
         for line in f_sets:
@@ -46,6 +50,11 @@ def read_freq_sets(file_sets):
             sets.append(set(result))
     return sets
 def read_sets(file_sets):
+    """
+    读取所有项的集合
+    :param file_sets: 文件路径
+    :return:
+    """
     sets = []
     with open(file_sets, 'r') as f_sets:
         for line in f_sets:
@@ -59,6 +68,12 @@ def read_sets(file_sets):
     return sets
 
 def get_baskets(file_read,file_write):
+    """
+    将跳转关系转换为购物篮
+    :param file_read:
+    :param file_write:
+    :return:
+    """
     file_w=open(file_write,'a')
     with open(file_read) as file_r:
         for line in file_r:
@@ -73,6 +88,12 @@ def get_baskets(file_read,file_write):
     file_w.close()
 
 def get_sets(file_read,file_write):
+    """
+    将reduce得到的单词转换为项的集合
+    :param file_read:
+    :param file_write:
+    :return:
+    """
     file_w=open(file_write,'a')
     with open(file_read) as file_r:
         for line in file_r:
@@ -82,6 +103,12 @@ def get_sets(file_read,file_write):
     file_w.close()
 
 def hash(set,bucket_num):
+    """
+    哈希函数
+    :param set: 项集
+    :param bucket_num: 项集的总数
+    :return:
+    """
     hash_value=0
     for word in set:
         for char in word:
@@ -89,6 +116,11 @@ def hash(set,bucket_num):
     hash_value=hash_value%bucket_num
     return hash_value
 def get_supports(file_freq_sets):
+    """
+    获取项集的支持度
+    :param file_freq_sets:
+    :return:
+    """
     supports = defaultdict(float)
     with open(file_freq_sets, 'r') as f_sets:
         for line in f_sets:
