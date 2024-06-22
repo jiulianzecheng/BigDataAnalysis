@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 from utils import get_data, get_data_n, get_data_anime
-from user_recommend import sse, recommend_n_anime
+from user_recommend import sse_user, recommend_n_anime
 from content_recommend import sse_content, content_recommend
 
 # 获取训练集中的数据，所有的用户id,所有的动漫id
@@ -15,16 +15,16 @@ utility_matrix = train_data.pivot_table(values='rating', index='user_id', column
 utility_matrix = utility_matrix.replace(0, np.nan)
 # 利用pearson相关系数计算相似度矩阵
 similarity_matrix = utility_matrix.T.corr('pearson')
-# recommended_anime=recommend(465,similarity_matrix,utility_matrix,5,anime_id,10)
-# sse=sse(test_data,similarity_matrix,utility_matrix,10)
-# print(sse)
-# print(recommended_anime)
-# print(utility_matrix)
-# recommend_animes=recommend_n_anime(629,anime_id,similarity_matrix,utility_matrix,10,10)
-# print(recommend_animes)
 
+# 基于用户的协同过滤
+sse=sse_user(test_data,similarity_matrix,utility_matrix,10)
+print(sse)
+recommend_animes=recommend_n_anime(629,anime_id,similarity_matrix,utility_matrix,10,10)
+print(recommend_animes)
+
+# 获取余弦相似度矩阵
 similarity_matrix = get_data_anime('./data/anime.csv')
-
+# 基于内容的协同过滤
 sse = sse_content(test_data, similarity_matrix, utility_matrix,anime_id)
 recommend_animes_content=content_recommend(629,similarity_matrix,utility_matrix,anime_id,20)
 print(sse)
