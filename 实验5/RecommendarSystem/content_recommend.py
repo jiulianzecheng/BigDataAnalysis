@@ -24,12 +24,14 @@ def calculate_score_content(user_id,similarity_matrix,utility_matrix,anime_id):
     num = 0
     flag = 0
     for index,value in valid_rating_mask.items():
-        if value:
+        if value and similarity_vector[index] > 0:
             score += rating_vector[index]*similarity_vector[index]
             denominator += similarity_vector[index]
-            if similarity_vector[index] != 0:
-                num += 1
-    score /= denominator
+            num += 1
+    if num > 0:
+        score /= denominator
+    else:
+        score = rating_vector.loc[valid_rating_mask].sum()/valid_rating_mask.sum()
     # 判断有效的相似动漫的数量，便于对动漫进行推荐，相似动漫过少的动漫则不进行推荐
     if num >= 5:
         flag = 1

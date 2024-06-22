@@ -32,12 +32,13 @@ def calculate_score_user(user_id, similarity_matrix, utility_matrix, k, anime_id
     valid_similarity_vector = similarity_vector[valid_ratings_mask]
     valid_rating_vector = rating_vector[valid_ratings_mask]
 
-    # 判断对该动漫打分的用户数量，便于后续的推荐操作，对该动漫打分的用户过少，则不对该动漫进行推荐
-    flag = 0
-    if len(valid_similarity_vector) >= k:
-        flag = 1
+
     # 选取相似度最高的k个用户,不包含负相似度的用户
     k_neighbors_index = valid_similarity_vector[valid_similarity_vector > 0].nlargest(k).index
+    # 判断对该动漫打分的用户数量，便于后续的推荐操作，对该动漫打分的用户过少，则不对该动漫进行推荐
+    flag = 0
+    if len(k_neighbors_index) >= k:
+        flag = 1
     # 计算得分
     score = (valid_similarity_vector.loc[k_neighbors_index] * valid_rating_vector.loc[k_neighbors_index]).sum()
     denominator = valid_similarity_vector.loc[k_neighbors_index].sum()

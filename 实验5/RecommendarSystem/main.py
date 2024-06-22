@@ -18,14 +18,17 @@ similarity_matrix = utility_matrix.T.corr('pearson')
 
 # 基于用户的协同过滤
 sse=sse_user(test_data,similarity_matrix,utility_matrix,10)
-print(sse)
-recommend_animes=recommend_n_anime(629,anime_id,similarity_matrix,utility_matrix,10,10)
-print(recommend_animes)
+recommend_animes=recommend_n_anime(629,anime_id,similarity_matrix,utility_matrix,10,20)
+print("基于用户的协同过滤：")
+print("sse："+str(sse))
+print("推荐的动漫："+str(recommend_animes))
 
 # 获取余弦相似度矩阵
 similarity_matrix = get_data_anime('./data/anime.csv')
 # 基于内容的协同过滤
 sse = sse_content(test_data, similarity_matrix, utility_matrix,anime_id)
 recommend_animes_content=content_recommend(629,similarity_matrix,utility_matrix,anime_id,20)
-print(sse)
-print(recommend_animes_content)
+print("基于内容的协同过滤：")
+print("sse："+str(sse))
+print("推荐的动漫："+str(recommend_animes_content))
+
